@@ -25,10 +25,8 @@ body {
     width: 650px;
     margin: auto;
     margin-top: 0;
-    padding: /*8*/24px;
+    padding: 24px;
     position: relative;
-    
-    /* new */
     overflow: auto;
     
 }
@@ -65,14 +63,12 @@ h1 {
     line-height: 1.0625;
     font-weight: 400;
     letter-spacing: -0.009em;
-    color: #0fbcf9;
 }
 h2 {
     font-size: 40px;
     line-height: 1.0625;
     font-weight: 400;
     letter-spacing: -0.009em;
-    /*color: #ef5777;*/
     padding-top: 1.1em;
     margin-top: 1em;
     border-top: 1px solid #d2d2d7;
@@ -80,7 +76,6 @@ h2 {
 }
 
 .h2Index {
-    /*color: rgb(198, 225, 230);*/
     font-size: 58px;
     text-align: center;
 }
@@ -97,12 +92,15 @@ h5 {
     margin-top: 21px;
 }
 p {
-    font-size: /*17*/21px;
-    /*line-height: 1.381;*/
+    font-size: 17px;
     line-height: 1.47059;
     font-weight: 400;
-    letter-spacing: -.022em/*0.011em*/;
+    letter-spacing: -.022em;
     margin-top: 17px;
+}
+
+.justify {
+    text-align: justify;
 }
 
 .pIndex {
@@ -137,7 +135,7 @@ li {
     line-height: 1.6em;
     font-size: 17px;
     font-weight: 400;
-    letter-spacing: /*-.022em*/0.011em;
+    letter-spacing: 0.011em;
 }
 .indent1 {
     margin-left: 17px;
@@ -184,9 +182,9 @@ td {
 @media only screen and (max-width: 650px) {
     .main-div {
         
-        width: /*96*/92%;
+        width: 92%;
         margin: 0;
-        padding: /*1.999*/3.999%;
+        padding: 3.999%;
         
     }
     #textaboutmediv {
@@ -196,19 +194,7 @@ td {
 @media (prefers-color-scheme: dark) {
     body {
         opacity: 0.95;
-        background-color: /*#1a1a1a*//*#161617*/#000;
-        color: rgb(198, 225, 230) /*#d7d7d7 rgb(245, 245, 247);*/
+        background-color: #000;
+        color: rgb(198, 225, 230)
     }
-    /*
-    .pIndex {
-        rgb(198, 225, 230)
-    }
-    
-    h2Index {
-        rgb(198, 225, 230)
-    }
-    */
-    
 }
-
-/* rgb(198, 225, 230) */
